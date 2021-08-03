@@ -1,0 +1,63 @@
+.nav{
+      background-color: rgb(151, 142, 142);
+      overflow: hidden;
+}
+.nav a{
+      float: right;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 13px 15px;
+      text-decoration: none;
+      font-size: 19px;
+}
+.nav a:hover{
+      background-color: bisque;
+      color: rgb(34, 37, 78);
+}
+.nav a.active{
+      background-color: rgba(168, 108, 51, 0.548);
+      color: rgba(170, 43, 43, 0.453);
+}
+
+.sidenav {
+      height: 100%; 
+      width: 0; 
+      position: fixed;
+      z-index: 1;
+      top: 0; 
+      left: 0;
+      background-color: #111; 
+      overflow-x: hidden; 
+      padding-top: 60px; 
+      transition: 0.5s; 
+    }
+    
+    /* The navigation menu links */
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+      transition: margin-left .5s;
+      padding: 20px;
+    }
